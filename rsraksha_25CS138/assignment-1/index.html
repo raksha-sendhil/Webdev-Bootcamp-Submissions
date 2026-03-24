@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="description" content="A simple To-Do List application built with HTML, CSS, and JavaScript.">
+    <title>To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+    <img src="heading1.png" alt="To-Do List" id="heading">
+    </header>
+
+    <main id="main_container"> 
+      <div id="right_side">
+        <div id="bio">
+          <div id="banner">
+            <a href="https://www.linkedin.com/in/raksha-r-s-423915372/" id="name">R S Raksha</a>
+            <img src="pfp.jpg" alt="Profile Picture" id="profile_pic">
+          </div>
+          <p id="description">2nd sem CSE student, currently exploring ML, web development</p>
+        </div>
+        
+        <div id="input_box">
+          <input type="text" placeholder="Add a new task..." />
+          <button id="add_button">Add</button>
+        </div>
+      </div>
+
+      <div id="task_list">
+        <ul id="tasks">
+
+          <li class="task">
+            <span class="task-left">
+              <input type="checkbox" id="task1" />
+              <label for="task1">Complete CC assignment</label> 
+            </span>
+            <img src=del.png class="Delete">
+          </li>
+
+          <li class="task">
+            <span class="task-left">
+              <input type="checkbox" id="task2" />
+              <label for="task2">Wash dishes</label> 
+            </span>
+            <img src=del.png class="Delete">
+          </li>
+
+          <li class="task">
+            <span class="task-left">
+              <input type="checkbox" id="task3" />
+              <label for="task3">Go for a run</label>
+            </span>
+            <img src=del.png class="Delete">
+          </li>
+
+          <li class="task">
+            <span class="task-left">
+              <input type="checkbox" id="task4" />
+              <label for="task4">Read a book</label>
+            </span>
+            <img src=del.png class="Delete">
+          </li>
+
+          <li class="task">
+            <span class="task-left">
+              <input type="checkbox" id="task5" />
+              <label for="task5">Call family</label>
+            </span>
+            <img src=del.png class="Delete">
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
