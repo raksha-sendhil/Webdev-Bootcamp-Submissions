@@ -1,0 +1,23 @@
+[
+  {
+    "_id": { "$oid": "661a1f0000000000000000d1" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b2" },
+    "user_id": { "$oid": "661a1f0000000000000000a1" },
+    "text": "Is this open to first-year students as well?",
+    "created_at": { "$date": "2024-01-17T10:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000d2" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b2" },
+    "user_id": { "$oid": "661a1f0000000000000000a2" },
+    "text": "Yes, it is open to all years. Teams of up to 4 people.",
+    "created_at": { "$date": "2024-01-17T11:15:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000d3" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b1" },
+    "user_id": { "$oid": "661a1f0000000000000000a2" },
+    "text": "Does this internship provide a stipend?",
+    "created_at": { "$date": "2024-01-18T09:30:00Z" }
+  }
+]

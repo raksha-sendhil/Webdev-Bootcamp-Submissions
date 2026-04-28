@@ -1,0 +1,26 @@
+[
+  {
+    "_id": { "$oid": "661a1f0000000000000000c1" },
+    "user_id": { "$oid": "661a1f0000000000000000a1" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b1" },
+    "status": "pending",
+    "cover_note": "I have worked on two ML projects and I am excited about this role.",
+    "applied_at": { "$date": "2024-01-20T10:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000c2" },
+    "user_id": { "$oid": "661a1f0000000000000000a2" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b3" },
+    "status": "accepted",
+    "cover_note": "I have been building React apps for a year and want to sharpen my skills.",
+    "applied_at": { "$date": "2024-01-21T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000c3" },
+    "user_id": { "$oid": "661a1f0000000000000000a1" },
+    "opportunity_id": { "$oid": "661a1f0000000000000000b2" },
+    "status": "pending",
+    "cover_note": "Keen to participate and build something impactful.",
+    "applied_at": { "$date": "2024-01-22T15:30:00Z" }
+  }
+]

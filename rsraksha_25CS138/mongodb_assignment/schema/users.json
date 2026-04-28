@@ -1,0 +1,34 @@
+[
+  {
+    "_id": { "$oid": "661a1f0000000000000000a1" },
+    "name": "Aryan Mehta",
+    "email": "aryan.mehta@college.edu",
+    "role": "student",
+    "skills": ["Python", "Machine Learning", "SQL"],
+    "bookmarks": [
+      { "$oid": "661a1f0000000000000000b1" },
+      { "$oid": "661a1f0000000000000000b2" }
+    ],
+    "created_at": { "$date": "2024-01-10T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000a2" },
+    "name": "Sneha Rao",
+    "email": "sneha.rao@college.edu",
+    "role": "student",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "bookmarks": [
+      { "$oid": "661a1f0000000000000000b3" }
+    ],
+    "created_at": { "$date": "2024-01-12T10:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "661a1f0000000000000000a3" },
+    "name": "Dr. Kavita Nair",
+    "email": "kavita.nair@college.edu",
+    "role": "organizer",
+    "skills": [],
+    "bookmarks": [],
+    "created_at": { "$date": "2024-01-05T08:00:00Z" }
+  }
+]
